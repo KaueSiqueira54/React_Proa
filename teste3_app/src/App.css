@@ -1,0 +1,9 @@
+main {
+  position: relative;
+  width: 95%;
+  height: 600px;
+  border: 1px solid red;
+  background-color: #eeeeee;
+  color: #000;
+  margin: 0 auto;
+}
