@@ -1,0 +1,70 @@
+/* Section 4 */
+
+.section4 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.div1_section4 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40%;
+  height: 260px;
+  padding: 1rem;
+  color: #000000;
+}
+
+.div1_section4 input {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+}
+
+.div1_section4 .pedido {
+  width: 70%;
+  height: 180px;
+}
+
+.div2_section4 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 40%;
+  height: 260px;
+  padding: 1rem;
+}
+
+button {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #000;
+}
+
+.div2_section4 p {
+  color: rgb(0, 0, 166);
+}
+
+.container_img {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  width: 50%;
+}
+
+.container_img img {
+  width: 50px;
+  height: 50px;
+}

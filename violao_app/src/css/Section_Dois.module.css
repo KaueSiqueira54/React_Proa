@@ -1,0 +1,36 @@
+/*Section 2 */
+
+.section2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px 10px auto;
+}
+
+.section2 div {
+  margin-top: 1rem;
+  position: relative;
+  width: 20%;
+  height: 260px;
+  text-align: center;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.div1_section2 p {
+  font-family: verdana;
+  font-size: 0.9rem;
+}
+
+.preco {
+  color: rgba(213, 0, 0, 0.808);
+}

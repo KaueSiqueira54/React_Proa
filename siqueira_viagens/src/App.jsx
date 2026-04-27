@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./css/App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -10,13 +11,18 @@ import Canyon from "./components/Canyon";
 function App() {
   return (
     <main>
-      <Header />
-      <Home />
-      <Escocia />
-      <Aruba />
-      <Muralha />
-      <Canyon />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          {/* Ao abrir, mostra o principal, / */}
+          <Route path="/" element={<Home />} />
+          <Route path="/Escocia" element={<Escocia />} />
+          <Route path="/Aruba" element={<Aruba />} />
+          <Route path="/Muralha" element={<Muralha />} />
+          <Route path="/Canyon" element={<Canyon />} />
+        </Routes>
+        <Footer />
+      </Router>
     </main>
   );
 }
